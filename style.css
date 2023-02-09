@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+:root {
+    --fonte-principal:'Montserrat', sans-serif;
+    --azul-claro:#0AA1DD;
+    --cor-primaria:#E8F9FD;
+}
+
+body {
+    background-color: var(--azul-claro);
+    font-family: var(--fonte-principal);
+    color: var(--cor-primaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.mensagem {
+    font-size: 1.5em;
+}
+
+.box {
+    border: 2px solid var(--cor-primaria);
+    display: inline-block;
+    margin: 20px;
+    font-size: 4em;
+    padding: 10px;
+}
+
+.botao-jogar {
+    padding: 0.5em 1em;
+    background-color: var(--azul-claro);
+    margin-top: 20px;
+    font-size: 1.5em;
+    border: 1px solid var(--cor-primaria);
+    border-radius: 5px;
+}
+
+.botao-jogar:hover {
+    transition: 200ms;
+    scale:1.1;
+}
